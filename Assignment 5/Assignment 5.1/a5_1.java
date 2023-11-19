@@ -48,8 +48,8 @@ public class a5_1{
         for (int i=0; i<n; i++){
             System.out.println(process[i]+"\t\t"+arrival[i]+"\t\t"+cpu[i]+"\t\t"+wait[i]+"\t\t"+turntt[i]);
         }
-        System.out.println("\n\nTotal Turn Around Time is: "+ (total_tt/n));
-        System.out.println("\n\nTotal Waiting Time is: "+ (total_waiting/n)+"\n");
+        System.out.println("\n\nAverage Turn Around Time is: "+ (total_tt/n));
+        System.out.println("\n\nAverage Waiting Time is: "+ (total_waiting/n)+"\n");
         p.close();
     }
 }
