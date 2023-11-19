@@ -32,7 +32,7 @@ public class a5_2{
         }
 
         boolean a = true;
-        while (true){
+        while (a){
             int c = n, min = 999;
 
             if (tot == n ){
